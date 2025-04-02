@@ -3,6 +3,7 @@
 #
 # 2022-2025, (c) by Ing. Gerald Reiter
 #
+#
 # pylint: disable=C0103:invalid-name
 # pylint: disable=C0209:consider-using-f-string
 # pylint: disable=C0301:line-too-long
