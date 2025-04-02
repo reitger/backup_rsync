@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 #
 # 2022-2025, (c) by Ing. Gerald Reiter
-#
+# 1.0.0.1
 #
 # pylint: disable=C0103:invalid-name
 # pylint: disable=C0209:consider-using-f-string
@@ -20,7 +20,6 @@
 # pylint: disable=R0912:too-many-branches
 # pylint: disable=R1732:consider-using-with
 #
-# Vers2!!
 '''
 Backup mit rsync:
 
