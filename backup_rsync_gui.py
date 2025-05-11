@@ -627,7 +627,8 @@ class ChooseBackup():
         for icondef in icondefs:
             # Load the icon image
             if USE_PIL:
-                iconfile = os.path.join("/home/rg/bin/backup_rsync/images/", icondef[1])
+                
+                iconfile = os.path.join(homedir, "bin/backup_rsync/images/", icondef[1])
                 self.icons[icondef[0]] = ImageTk.PhotoImage(Image.open(iconfile))
             else:
                 # go without Images

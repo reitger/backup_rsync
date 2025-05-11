@@ -1,0 +1,2 @@
+/usr/share/icons/gnome/16x16
+
