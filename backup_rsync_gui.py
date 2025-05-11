@@ -1041,7 +1041,11 @@ def main():
         root.mainloop()
 
     except Exception:
-        traceback.print_exc()
+        msg = traceback.format_exc()
+        try:
+            writemsg(msg)
+        except Exception:
+            print(msg)
 
 
 if __name__ == "__main__":
